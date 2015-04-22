@@ -46,7 +46,7 @@
 
     XLSXReader.utils = {
         'intializeFromFile': function(obj, file, readCells, toJSON, handler) {
-            var reader = new mOxie.FileReader();
+            var reader = new FileReader();
 
             reader.onload = function(e) {
                 var data = e.target.result;
